@@ -1,0 +1,48 @@
+[
+    {
+        "_id": "1",
+        "name": "Recipe 1",
+        "chef": "Chef A",
+        "cuisine": "Italian",
+        "ingredients": "Ingredient 1, Ingredient 2",
+        "recipeName": "Spaghetti Carbonara",
+        "price": 10.99
+    },
+    {
+        "_id": "2",
+        "name": "Recipe 2",
+        "chef": "Chef B",
+        "cuisine": "Mexican",
+        "ingredients": "Ingredient 1, Ingredient 2, Ingredient 3",
+        "recipeName": "Tacos",
+        "price": 8.99
+    },
+    {
+        "_id": "3",
+        "name": "Recipe 3",
+        "chef": "Chef c",
+        "cuisine": "Mexican",
+        "ingredients": "Ingredient 1, Ingredient 2, Ingredient 3,Ingredient 4",
+        "recipeName": "daal",
+        "price": 7.99
+    },
+    {
+        "_id": "4",
+        "name": "Recipe 4",
+        "chef": "Chef D",
+        "cuisine": "Mexican",
+        "ingredients": "Ingredient 1, Ingredient 2, Ingredient 3,Ingredient 4,Ingredient 5",
+        "recipeName": "nan",
+        "price": 11.99
+    },
+    {
+        "_id": "5",
+        "name": "Recipe 5",
+        "chef": "Chef E",
+        "cuisine": "Mexican",
+        "ingredients": "Ingredient 1, Ingredient 2, Ingredient 3,Ingredient 4,Ingredient 5,Ingredient 6",
+        "recipeName": "naan",
+        "price": 6.99
+    }
+
+]

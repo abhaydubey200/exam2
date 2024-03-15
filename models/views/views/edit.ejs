@@ -1,0 +1,24 @@
+<!-- views/edit.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Recipe</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Edit Recipe</h1>
+    <form action="/recipes/<%= recipe._id %>/edit" method="post">
+        <label>Chef:</label>
+        <input type="text" name="chef" value="<%= recipe.chef %>">
+        <label>Cuisine:</label>
+        <input type="text" name="cuisine" value="<%= recipe.cuisine %>">
+        <label>Ingredients:</label>
+        <input type="text" name="ingredients" value="<%= recipe.ingredients %>">
+        <label>Price:</label>
+        <input type="number" name="price" value="<%= recipe.price %>">
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>
